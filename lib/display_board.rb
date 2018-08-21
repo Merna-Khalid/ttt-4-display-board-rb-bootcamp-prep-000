@@ -6,7 +6,7 @@ def display_board(board)
   2.times do
     puts " #{board[i * 3]} | #{board[i * 3 + 1]} | #{board[i * 3 + 2]}"
     puts "----------"
-    i++
+    i = i + 1
   end
   puts " #{board[6]} | #{board[7]} | #{board[8]}"
 end
